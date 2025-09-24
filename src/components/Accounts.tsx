@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 
 const Accounts: React.FC = () => {
@@ -7,7 +9,7 @@ const Accounts: React.FC = () => {
       <div className="bg-pastel-pink p-4 rounded-md text-white">
         <p className="font-bold">Filecoin Wallet</p>
         <p>**** **** **** 1234</p>
-        <p>Total FIL: 3,445.0</p>
+        <p>Total FIL: 3,445.0 (Mock)</p>
       </div>
     </div>
   );
